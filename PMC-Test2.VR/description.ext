@@ -1,0 +1,22 @@
+#include "defines.hpp"
+#include "dialogs.hpp"
+
+class CfgFunctions
+{
+	class Elem
+	{
+		class dialogFunctions
+		{
+			class loadVehicleList {file = "dialogFunctions\loadVehicleList.sqf";};
+			class selectVehicle {file = "dialogFunctions\selectVehicle.sqf";};
+		};
+	};
+
+	class mfnc
+	{
+		class missionFunctions
+		{
+			class mpAddAction {file = "missionFunctions\mpAddAction.sqf";};
+		};
+	};
+};

@@ -1,0 +1,1 @@
+player sideChat "Store would've been opened... :D";
