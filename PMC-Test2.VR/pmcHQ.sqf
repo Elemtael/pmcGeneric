@@ -26,7 +26,6 @@ else {
 		//Add Actions
 		[[_bob,"Open Store","dialogFunctions\openStore.sqf"],"mfnc_fnc_mpAddAction",nil,false] spawn BIS_fnc_MP;
 
-		[[_bob], nil] call Ares_fnc_AddUnitsToCurator;
 };
 
 

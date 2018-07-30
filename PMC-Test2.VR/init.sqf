@@ -16,5 +16,6 @@ publicVariableServer "checkForFactionDatabase";
 
 
 _actionID = player addAction ["Open Dialog", "dialogFunctions\openHomeMenu.sqf"];
+_actionID = player addAction ["Open Store", "dialogFunctions\openStore.sqf"];
 
 #include "pmcHQ.sqf";

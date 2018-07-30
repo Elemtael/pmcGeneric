@@ -137,3 +137,146 @@ class homeMenu
 			////////////////////////////////////////////////////////
 			};
 };
+
+	class factionWeaponShop
+	{
+		idd = 9997;
+		movingEnable = false;
+
+
+			class controls
+			{
+////////////////////////////////////////////////////////
+// GUI EDITOR OUTPUT START (by Elemtael, v1.063, #Fyrowu)
+////////////////////////////////////////////////////////
+
+class factionShopFrame: RscFrame
+{
+	idc = 1800;
+
+	x = 0.345312 * safezoneW + safezoneX;
+	y = 0.28 * safezoneH + safezoneY;
+	w = 0.28875 * safezoneW;
+	h = 0.407 * safezoneH;
+};
+class factionShopText: RscText
+{
+	idc = 1002;
+
+	text = "Bob's Weapon Shop"; //--- ToDo: Localize;
+	x = 0.4175 * safezoneW + safezoneX;
+	y = 0.28 * safezoneH + safezoneY;
+	w = 0.149531 * safezoneW;
+	h = 0.044 * safezoneH;
+	sizeEx = 2  * GUI_GRID_H;
+};
+class gunStoreComboBox: RscCombo
+{
+	idc = 2100;
+
+	x = 0.355625 * safezoneW + safezoneX;
+	y = 0.335 * safezoneH + safezoneY;
+	w = 0.113437 * safezoneW;
+	h = 0.022 * safezoneH;
+};
+class comboBuy: RscButton
+{
+	idc = 1600;
+
+	text = "Buy"; //--- ToDo: Localize;
+	x = 0.355625 * safezoneW + safezoneX;
+	y = 0.654 * safezoneH + safezoneY;
+	w = 0.0515625 * safezoneW;
+	h = 0.022 * safezoneH;
+};
+class comboCancel: RscButton
+{
+	idc = 1601;
+
+	text = "Cancel"; //--- ToDo: Localize;
+	x = 0.4175 * safezoneW + safezoneX;
+	y = 0.654 * safezoneH + safezoneY;
+	w = 0.0515625 * safezoneW;
+	h = 0.022 * safezoneH;
+};
+class weaponPrice: RscText
+{
+	idc = 1002;
+
+	text = "Weapon Price"; //--- ToDo: Localize;
+	x = 0.530937 * safezoneW + safezoneX;
+	y = 0.423 * safezoneH + safezoneY;
+	w = 0.0567187 * safezoneW;
+	h = 0.022 * safezoneH;
+};
+class weaponPriceVar: RscText
+{
+	idc = 1003;
+
+	x = 0.525781 * safezoneW + safezoneX;
+	y = 0.445 * safezoneH + safezoneY;
+	w = 0.0721875 * safezoneW;
+	h = 0.022 * safezoneH;
+	sizeEx = .8 * GUI_GRID_H;
+};
+class weaponQuantity: RscText
+{
+	idc = 1004;
+
+	text = "Weapon Quantity"; //--- ToDo: Localize;
+	x = 0.525781 * safezoneW + safezoneX;
+	y = 0.357 * safezoneH + safezoneY;
+	w = 0.061875 * safezoneW;
+	h = 0.022 * safezoneH;
+};
+class weaponQuantityVar: RscText
+{
+	idc = 1005;
+
+	x = 0.54125 * safezoneW + safezoneX;
+	y = 0.379 * safezoneH + safezoneY;
+	w = 0.0257812 * safezoneW;
+	h = 0.022 * safezoneH;
+	sizeEx = .8 * GUI_GRID_H;
+};
+class weaponList: RscListbox
+{
+	idc = 1500;
+	x = 0.355625 * safezoneW + safezoneX;
+	y = 0.368 * safezoneH + safezoneY;
+	w = 0.113437 * safezoneW;
+	h = 0.275 * safezoneH;
+};
+class ammoList: RscListbox
+{
+	idc = 1501;
+	x = 0.489687 * safezoneW + safezoneX;
+	y = 0.544 * safezoneH + safezoneY;
+	w = 0.134062 * safezoneW;
+	h = 0.132 * safezoneH;
+};
+class ammoTypes: RscText
+{
+	idc = 1002;
+
+	text = "Ammo Types"; //--- ToDo: Localize;
+	x = 0.530937 * safezoneW + safezoneX;
+	y = 0.511 * safezoneH + safezoneY;
+	w = 0.0567187 * safezoneW;
+	h = 0.022 * safezoneH;
+};
+////////////////////////////////////////////////////////
+// GUI EDITOR OUTPUT END
+////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+			};
+
+	};

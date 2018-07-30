@@ -9,6 +9,7 @@ class CfgFunctions
 		{
 			class loadVehicleList {file = "dialogFunctions\loadVehicleList.sqf";};
 			class selectVehicle {file = "dialogFunctions\selectVehicle.sqf";};
+			class getWeaponData {file = "exampleWeaponData.sqf";};
 		};
 	};
 
